@@ -1,4 +1,4 @@
-const propiedades_alquiler = [
+export const propiedades_alquiler = [
 {
 nombre: 'Apartamento en el centro de la ciudad',
 src: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBhcnRtZW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60',
