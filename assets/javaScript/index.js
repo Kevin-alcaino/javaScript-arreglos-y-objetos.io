@@ -8,7 +8,13 @@ function mostrarVentas() {
     if (!contenedorVenta) return;
 
     let html = '<div class="row">';
-    for (const propiedad of propiedades_venta) {
+    
+    for (let i = 0; i < propiedades_venta.length; i++) {
+        if (contenedorVenta && contenedorAlquiler && i === 3) {
+            break;
+        }
+
+        const propiedad = propiedades_venta[i];
         html += `
         <div class="col-md-4 mb-4">
             <div class="card h-100">
@@ -46,7 +52,13 @@ function mostrarAlquileres() {
     if (!contenedorAlquiler) return;
 
     let html = '<div class="row">';
-    for (const propiedad of propiedades_alquiler) {
+    
+    for (let i = 0; i < propiedades_alquiler.length; i++) {
+        if (contenedorVenta && contenedorAlquiler && i === 3) {
+            break;
+        }
+
+        const propiedad = propiedades_alquiler[i];
         html += `
         <div class="col-md-4 mb-4">
             <div class="card h-100">
