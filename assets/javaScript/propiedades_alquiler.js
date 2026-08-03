@@ -6,7 +6,7 @@ descripcion: 'Este apartamento de 2 habitaciones está ubicado en el corazón de
 ubicacion: '123 Main Street, Anytown, CA 91234',
 habitaciones: 2,
 baños: 2,
-costo: 2.000,
+costo: 2000,
 smoke: false,
 pets: true
 },
@@ -17,7 +17,7 @@ descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar',
 ubicacion: '',
 habitaciones: 3,
 baños: 3,
-costo: 2.500,
+costo: 2500,
 smoke: true,
 pets: true
 },
@@ -28,19 +28,19 @@ descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zo
 ubicacion: '123 Main Street, Anytown, CA 91234',
 habitaciones: 2,
 baños: 2,
-costo: 2.200,
+costo: 2200,
 smoke: false,
 pets: false
 },
 {
 nombre: 'Condominio moderno en la nieve',
-src: 'https://lbcdn.airpaz.com/hotelimages/1368618/casa-refugio-farellones-9697a9643c31c1d39bcdc5947055f289.jpg',
+src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnQKvkqnMvMd-ze6660Eh4etU9HXntM1Ibk9_625eZEQ&s=10',
 descripcion: 'Este condominio moderno está ubicado en una zona de alta montaña, en la cordillera de los Andes,Chile.',
 ubicacion: 'Camino de Los Condores 1180, Farellones 7690000',
 habitaciones: 2,
 baños: 2,
-costo: 1.800,
+costo: 1800,
 smoke: true,
-pets: true
+pets: true,
 } 
 ]

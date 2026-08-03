@@ -6,7 +6,7 @@ export const propiedades_venta = [
     ubicacion: '123 Luxury Lane, Prestige Suburb, CA 45678',
     habitaciones: 4,
     baños: 4,
-    costo: 5.000,
+    costo: 5000,
     smoke: false,
     pets: false
   },
@@ -17,7 +17,7 @@ export const propiedades_venta = [
     ubicacion: ' 789 Mountain Road, Summit Peaks, CA 23456',
     habitaciones: 2,
     baños: 1,
-    costo: 3.200,
+    costo: 3200,
     smoke: true,
     pets: true
   },
@@ -28,7 +28,7 @@ export const propiedades_venta = [
     ubicacion: '567 Skyline Avenue, Skyview City, CA 56789',
     habitaciones: 3,
     baños: 3,
-    costo: 7.500,
+    costo: 7500,
     smoke: false,
     pets: true
   },
@@ -39,7 +39,7 @@ export const propiedades_venta = [
     ubicacion: '667 Alto Cajon del Maipo, CL 98562',
     habitaciones: 3,
     baños: 3,
-    costo: 9.500,
+    costo: 9500,
     smoke: true,
     pets: true
   }

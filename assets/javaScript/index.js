@@ -1,17 +1,15 @@
+import { propiedades_venta } from "./propiedades_venta.js";
+import { propiedades_alquiler } from "./propiedades_alquiler.js";
 
-import { propiedades_venta } from "./venta.js";
-import { propiedades_alquiler } from "./alquiler.js";
-
-const contenedor = document.querySelector("#venta");
+const contenedorVenta = document.querySelector("#venta");
 const contenedorAlquiler = document.querySelector("#alquiler");
 
 function mostrarVentas() {
-    let html = '<div class="row">';
+    if (!contenedorVenta) return;
 
+    let html = '<div class="row">';
     for (const propiedad of propiedades_venta) {
         html += `
-        
-        
         <div class="col-md-4 mb-4">
             <div class="card h-100">
                 <img src="${propiedad.src}" class="card-img-top" alt="${propiedad.nombre}">
@@ -38,15 +36,17 @@ function mostrarVentas() {
                 </div>
             </div>
         </div>
-        
         `;
     }
-    contenedor.innerHTML = html;
+    html += '</div>';
+    contenedorVenta.innerHTML = html;
 }
-function mostrarAlquileres() {
-    let html = '<div class="row">';
 
-    for (const propiedad of propiedades_alquiler.slice(0, 3)) {
+function mostrarAlquileres() {
+    if (!contenedorAlquiler) return;
+
+    let html = '<div class="row">';
+    for (const propiedad of propiedades_alquiler) {
         html += `
         <div class="col-md-4 mb-4">
             <div class="card h-100">

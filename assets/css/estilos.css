@@ -1,6 +1,6 @@
 .main-section {
     background-image: url('../img/img-main.jpeg');
-    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-size: cover; 
     background-position: center;
     height: 300px;
     display: flex;
@@ -16,4 +16,9 @@
 
 .card img{
     height: 250px;
+}
+
+.boton{
+    border-radius: 10px;
+    background-color: whitesmoke;
 }
