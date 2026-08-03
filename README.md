@@ -27,7 +27,7 @@ proyecto de desarrollo frot end de forma dinamica, donde simulara una pagina de 
  ┗ 📜README.md
 ```
 ## 🔗 Links
-Actualmente estoy trabajando en [Desafio n°4 JavaScript - Objetos y arreglos](https://kevin-alcaino/javaScript-arreglos-y-objetos.io)
+Actualmente estoy trabajando en [Desafio n°4 JavaScript - Objetos y arreglos](https://kevin-alcaino.github.io/javaScript-arreglos-y-objetos.io/)
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kevin-alcaino.github.io/Kevin-alcaino.io/)
 
